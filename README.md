@@ -1,2 +1,2 @@
 # hardcore-python-practice
-killinnn pyhton now
+killinnn python now
