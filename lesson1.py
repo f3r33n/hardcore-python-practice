@@ -17,33 +17,23 @@ This is your daily routine.
 
 🔁 Daily Workflow (Now Super Simple):
 Anytime you add/edit code:
-
+'''
+r'''
 powershell
 Copy
 Edit
-cd "D:\Users\peerz\hardcore python practice"
+#cd "D:\Users\peerz\hardcore python practice"
 git init
 git add .
 git commit -m "Your message here"
 git push
 Done. That’s your new daily dev ritual.
-
-
-
-
-
-git add .
-git commit -m "Initial commit with W3Schools code"
-git branch -M main
-git push -u origin main
-This longer version is used only ONCE when:
-
-You're pushing the code to GitHub for the first time
-
-You just created a new repo
-
-Your folder is not yet connected to GitHub
 '''
+
+
+
+
+
 #so this lession is going to be about  strings and numbers and  building a calculator and madlibs game 
 #basically about varaibles as well
 #lets get strated
@@ -73,3 +63,40 @@ print(my_name.index("f"))
 #we can also replace a letter or string with other as 
 print(my_name.replace("f","s"))
 #this was the basics and medium stuff about strings!
+'''
+the next topic of this lesson1 is dealing with numbers 
+'''
+# so we dont use quotes while dealing with numbers 
+#python mostly goes smooth with numbers as in terms of addition,subtraction,multiplication and division
+print(5+2)
+#similar is the case with sub and mult and dvivision as well!
+#we can also use brackets to make sure the order of operations is correct
+print(5+7*2)
+print((5+7)*2)
+#we can also use the power of a number as 
+print(5**2)
+#power is taken as double ** or we can just go with the function as pow
+print(pow(2,3))
+# if we add a % we will get remainder of a number
+print(12 % 5)
+#we can also use the floor division to get the whole number as 
+print(12 // 5)
+#now in numbers lets deal with different function as
+my_num = 3
+print(my_num)
+#we can convert a number to string as
+print(str(my_num))
+#we add add our data or info as well
+print(str(my_num) +" is less than 5")
+#inorder to add more data to this we need to surely make it a string before adding otherwise it will throw an error!
+#lets look at another funtion
+great_number = -17.5
+print(abs(great_number))
+#so what it does it return to the absolute number of the value!
+#if we want to know which number is max or min we can go with the follwoing functions as
+print(max(5,-1))
+#or min
+print(min(-1,-8))
+#we can also round of a number
+print(round(7.589))
+
