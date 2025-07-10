@@ -99,4 +99,41 @@ print(max(5,-1))
 print(min(-1,-8))
 #we can also round of a number
 print(round(7.589))
+''' so in python there are surely inbuilt funtions but those function which arent inbuilt we can call them as import
+speaking of importing some advanced functions in python 
 
+'''
+from math import *
+# we will import func floor and ceil
+print(floor(8.9))
+#it brings the smallest number as 3
+print(ceil(4.3))
+#we can return square root as well
+print(sqrt(625))
+
+#lets get to the most impt topic of getting input from the user as
+input("enter your bad luck month:")
+# here we can assign a varaible as
+bad_luck = input("enter your bad luck month:")
+print( bad_luck + " i wish u gudluck")
+getting_info1 = input("enter ur mums name")
+getting_info2 = input("enter ur dads name")
+print(getting_info1 + " is married to " +  getting_info2)
+
+#now in this lesson we will proceed with buikding a basic calculator as well a as  a basic game
+
+number1 = input("ur lucky number one")
+number2 = input("ur lucky number two")
+result= int(number1)+int(number2)
+print(result)
+# now the int function only deals with whole number not decimals to make it do so we use the function float instead of int
+#lets create a basic madlibs game
+#lets for ease create 4 varaibles of a poem twinkle twinkle little star
+var1 = input("enter a star name")
+var2 = input("enter what u are")
+var3= input("world name")
+var4 = input("sky name")
+print("twinkle twinkle" + var1)
+print("how i wonder" + var2)
+print("up above the " + var3)
+print("like a diamond" + var4)
